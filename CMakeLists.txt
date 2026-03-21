@@ -8,15 +8,18 @@ find_package(glm REQUIRED)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(
-        Rocketboy
+        ${PROJECT_NAME}
         main.cpp
-        ./deps/glad/src/glad.c
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/glad/src/glad.c
 )
 
-target_include_directories(Rocketboy PRIVATE ./deps/glad/include)
+target_include_directories(
+        ${PROJECT_NAME} PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/deps/glad/include/
+)
 
 target_link_libraries(
-        Rocketboy PRIVATE
+        ${PROJECT_NAME} PRIVATE
         OpenGL::GL
         glfw
         glm::glm
