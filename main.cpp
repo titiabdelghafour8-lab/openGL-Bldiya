@@ -1,9 +1,8 @@
+#include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
 #include <iostream>
 
-
 int main() {
-    for (int i = 1; i <= 10; i++) {
-        std::cout << i << '\n';
-    }
+
     return 0;
 }
