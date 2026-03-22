@@ -11,6 +11,7 @@ add_executable(
         ${PROJECT_NAME}
         main.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/deps/glad/src/glad.c
+        RayTracer.cpp
 )
 
 target_include_directories(
