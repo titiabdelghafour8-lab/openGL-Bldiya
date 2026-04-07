@@ -2,8 +2,7 @@
 
 Hi! I am Abdelghafour Titi, a gaming enthusiast. I've always liked video games and was curious about how they were made.
 
-I tried to learn Unity and picked up some tutorials online, but it felt more like being a "game designer" than a "game maker." 
-I wanted to learn everything from the ground up. My goal is to make a game engine so that I get to tell how every pixel got to the screen.
+And in order to accomplish this goal I embarking a long low-level journey to learn everything from the ground up. My goal is to make a game engine so that I get to tell how every pixel got to the screen.
 
 From my experience with high-level development and the use of pre-made game engines, 
 I did not get the feeling of satisfaction, total control, and proper understanding that often came from learning mathematics in CPGE.
